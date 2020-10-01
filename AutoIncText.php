@@ -49,7 +49,7 @@ class AutoIncText
         if($is_in_range) {
             return $this->historia[$name_of_val];    
         }
-        return "NOT VAL";
+        return "-";
     }
     public function print_historia()
     {
